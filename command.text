@@ -1,0 +1,13 @@
+docker -v เช็ค version ของ docker
+docker ps เช็คสถานะ การ run 
+docker ps --all  เช็ค container ทั้งหมด
+docker run busybox ls ส่ง command เข้าไป run แบบ linux
+docker run busybox ping google.com  > ping ให้ทำงานตลอด 
+docker exec -it a232017c4e8f sh > remote เข้ามาดู ID container + sh (shell) / bash
+docker run nginx
+
+docker run -p 00:00 (เลขที่ต้องการใช้) nginx การ maping port
+# 9000:80
+docker run -d -p 8000:80 nginx ใช้ -d เพื่อไม่ให้มันค้าง
+
+docker rm + ID container ที่ต้องการลบ
