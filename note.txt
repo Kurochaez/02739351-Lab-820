@@ -1,0 +1,15 @@
+kubectl get all
+เรียกดู pod + ทั้งหมด
+
+kubectl delete pods client-deployment-77659f7f9c-t572b / ตามด้วยชื่อ pod ที่จะลบ
+ลบ pod ที่อยากจะลบ
+
+kubectl delete deployments client-deployment
+ลบ deployment
+
+kubectl get pods  
+เรียกดู pod
+
+kubectl delete all --all  
+
+ kubectl apply -f ./ตามด้วยชื่อไฟล์
